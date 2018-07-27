@@ -1,0 +1,71 @@
+.header {
+	width : 98%;
+	height: 60px;
+	background-color : #0dd;
+	margin: auto;
+	font : 18px 微软雅黑;
+}
+
+.header .title {
+	display: block;
+	text-align: center;
+	padding: 15px 10px 15px;
+	height : 30px;
+	width : 50px;
+}
+
+.header-item-list:hover .header-list , .header-list:hover{
+	display: block;
+}
+
+.header .header-list{
+	width : 50px;
+	font-size: 14px;
+	list-style: none;
+	padding: 0 15px;
+	margin: 0;
+	background-color: #0dd;
+	//display: none;
+}
+.header .header-list a{
+	text-decoration: none;
+	color : black;
+}
+.header .header-list li{
+	padding : 5px 0;
+}
+
+.content {
+	text-align: center;
+}
+
+.mine-item{
+	margin: 30px
+}
+
+.mine-list{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size : 0;
+}
+
+.mine-single {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	width : 20px;
+	height: 20px;
+	background-color: #0dd;
+	border: 1px solid black;
+	font-size : 4px;
+	overflow: hidden;
+}
+
+.mine {
+	background-color: black;
+}
+
+.blank {
+	background-color: white;
+}
